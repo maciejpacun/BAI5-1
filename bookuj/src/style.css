@@ -1,0 +1,33 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  background-color: #272525;
+}
+
+h1,
+p {
+  color: white;
+}
+
+.accordion-button:not(.collapsed) {
+  background-color: #272525;
+}
+
+.card {
+  box-sizing: border-box;
+  position: absolute;
+  background: #494b58;
+  mix-blend-mode: normal;
+  box-shadow: 0px 4px 4px #1e1e1e;
+  border-radius: 5px;
+  padding: 20px;
+}
